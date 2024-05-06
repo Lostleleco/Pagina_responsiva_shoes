@@ -1,0 +1,156 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: roboto, sans-serif;
+}
+
+header {
+  
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px;
+    background-color: blue;
+    color: white;
+   
+
+}
+.sobre h1{
+    border-bottom: 1px solid #ccc;
+  
+}
+
+ul{
+    list-style: none;
+}
+
+ul li a {
+    list-style: none;
+    color: white;
+    padding: 8px;
+    cursor: pointer;
+    text-decoration: none;
+   
+}
+
+
+.container{
+    display: flex;
+    padding: 18px;
+    text-align: start;
+    max-width: 80%;
+    margin-left: 60px;
+   
+    margin-bottom: 56px;
+}
+
+.container img{
+    height: 250px ;
+}
+
+.sobre{
+    margin-left: 50px;
+    font-size: 20px;
+}
+section img{
+    
+    height: 220px ;
+    display: flex;
+    padding: 8px;
+}
+ul{
+    display: flex;
+}
+section {
+   
+    padding: 18px;
+    text-align: start;
+    max-width: 80%;
+    margin-left: 60px;
+    
+    margin-bottom: 56px;
+}
+#produtos ul li, p,
+h3 {
+    display: flex;
+    list-style: none;
+    position: relative;
+    padding: 5px;
+    
+}
+#produtos{
+   display: flex;
+}
+.sub h1{
+    margin-top: 8px;
+    margin-left: 75px;
+    border-bottom: 1px solid #ccc;
+}
+ button{
+    background-color: blue;
+    color: white;
+    padding: 3px;
+    border-radius: 5px;
+    font-size: 20px;
+    cursor: pointer;
+    position: relative;
+}    
+
+@media screen and (max-width:767px) {
+    header {
+        font-size: 17px;
+        display:ruby-text;
+        padding: 0;
+        margin: 0;
+
+    }
+    body{
+        margin-left: -75px;
+    }
+
+    .container {
+        display: flex;
+        flex-direction: column;
+       
+        align-items: center; 
+        text-align: center; 
+    }
+   .container img{
+    font-size: 144px;
+    padding: inherit;
+   }
+   section #produtos 
+    {
+        display: flex;
+        flex-direction: column;
+       
+        align-items: center; 
+        text-align: center; 
+    }
+    #Produtos ul {
+        
+        display: flex;
+        flex-direction: column;
+       
+        align-items: center; 
+        text-align: center; 
+    }
+    
+    
+    #Produtos ul li {
+        
+        display: flex;
+        flex-direction: column;
+       
+        align-items: center; 
+        text-align: center; 
+    
+    #Produtos ul img {
+        width: 100%;
+        display: block;
+        justify-content: space-between; /* Garante que as imagens não tenham espaços vazios ao redor */
+    }
+    
+}}
